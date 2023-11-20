@@ -1,0 +1,128 @@
+[17-Jun-2023 14:51:41 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect('', '', Object(SensitiveParameterValue), '')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:52:16 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect('', '', Object(SensitiveParameterValue), '')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:40 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:40 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:40 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:40 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:40 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:41 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:42 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:43 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[02-Sep-2023 13:38:24 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'eeepma26_edital'@'localhost' (using password: YES) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect('127.0.0.1', 'eeepma26_edital', Object(SensitiveParameterValue), 'eeepma26_battle...')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
