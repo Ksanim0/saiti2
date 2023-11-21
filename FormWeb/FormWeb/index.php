@@ -15,10 +15,10 @@ include "connectBD.php";
     <link rel="stylesheet" href="btn-style.css">
     <meta name="google-site-verification" content="ezTnfxOAOeXB6FaEOsqR0fcf63u74YI3CQX8biM0w7I" />
     <!-- Script para as Mascaras --> 
-    <script src="js/MaskInput.js"></script>
+    <script src="./js/MaskInput.js"></script>
 
     
-    <script src="js/ValidarCEP.js"></script>
+    <script src="./js/ValidarCEP.js"></script>
 <!--     <script src="js/MaskNotas.js"></script> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
