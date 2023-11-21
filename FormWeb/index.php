@@ -1,8 +1,7 @@
-<?php
+ <?php
 include "connectBD.php";
 ?>
-
-
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +10,7 @@ include "connectBD.php";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>EEEP Manoel Mano | Cadastro Alunos</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleNew.css">
     <link rel="stylesheet" href="btn-style.css">
     <meta name="google-site-verification" content="ezTnfxOAOeXB6FaEOsqR0fcf63u74YI3CQX8biM0w7I" />
     <!-- Script para as Mascaras --> 
