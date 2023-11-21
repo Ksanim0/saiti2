@@ -17,7 +17,7 @@ include "connectBD.php";
     <script src="./js/MaskInput.js"></script>
 
     
-    <script src="js/ValidarCEP.js"></script>
+    <script src="./js/ValidarCEP.js"></script>
 <!--     <script src="js/MaskNotas.js"></script> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
