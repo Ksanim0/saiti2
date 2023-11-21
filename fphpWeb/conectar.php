@@ -1,10 +1,9 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "trabweb";
+$database = "eeepma26_battle_royale";
+$username =  "eeepma26_edital";
+$password = "ee3pm41@3!MM";
 
-$conn = mysqli_connect($servername,$username,$password,$dbname);
-
+$conexao = mysqli_connect($servername, $username, $password, $database);
 
 ?>
