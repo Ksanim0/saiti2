@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -43,3 +43,9 @@
         <footer><img src="./assets/ondas-governo-rodape.png" alt=""></footer>
 </body>
 </html>
+ -->
+
+ <?php
+ 
+ phpinfo();
+ ?>

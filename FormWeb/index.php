@@ -1,7 +1,7 @@
 <?php
 include "connectBD.php";
 ?>
- 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +17,7 @@ include "connectBD.php";
     <script src="./js/MaskInput.js"></script>
 
     
-    <script src="./js/ValidarCEP.js"></script>
+    <script src="js/ValidarCEP.js"></script>
 <!--     <script src="js/MaskNotas.js"></script> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -35,15 +35,14 @@ include "connectBD.php";
                         <a href="https://www.ceara.gov.br/"target="_blank"><img src="logo-governo.svg" alt="Logo do Governo do Ceará"></a>
                         <a href="https://www.instagram.com/eeepmanoelmano/"target="_blank"><img src="logo-mm.svg" alt="Logo da EEEP Manoel Mano"></a>
                     </div>
-                    <div class="col-0" id="Titulo"  >
+                    <div class="col-0"  >
                         <h3>formulario</h3>
 
 <div class="links-btn">
-        <a class="fcc-btn" href="#">Inicio</a>
+        <a class="fcc-btn" href="/index.php">Inicio</a>
         <a class="fcc-btn" href="#">Cursos</a>
         <a class="fcc-btn" href="#">Cadastros</a>
         <a class="fcc-btn" href="#">Relatorios</a>
-       
     </div>
 </div>
 
@@ -52,23 +51,21 @@ include "connectBD.php";
     </div>
     </div>
 
-    
-
     <div class="container-0">
         <div class="area-formulario">
             <div class="formulario">
-                <form action="" method="get">
+                <form action="salvar.php" method="post">
                     <div class="col-0-vdc" >
                     Dados Pessoais:
                  </div>
 
                     <div class="mb-3">
-                        <input type="text" class="col-01" placeholder="Nome completo">
-                        <input type="text" class="col-01" placeholder="Nome Social">
+                        <input type="text" class="col-01" placeholder="Nome completo" name="nome_completo">
+                        <input type="text" class="col-01" placeholder="Nome Social" name="nome_social">
                     </div>
                     <div class="row">
                         <div class="col">
-                        <input type="text" placeholder="Endereço" aria-label="Endereço" name="rua" id="rua">
+                        <input type="text" placeholder="Endereço" aria-label="Endereço" name="endereco" id="rua">
                         </div>
                         <div class="col">
                         <input type="text" placeholder="Bairro" aria-label="Bairro" name="bairro" id="bairro">
@@ -76,67 +73,68 @@ include "connectBD.php";
                     </div>
                     <div class="row">
                         <div class="col">
-                        <input type="text" placeholder="Município" aria-label="Município" name="localidade" id="localidade">
+                        <input type="text" placeholder="Município" aria-label="Município" name="municipio" id="localidade">
                         </div>
                         <div class="col">
-                        <input type="text" placeholder="Estado" aria-label="Estado" name="uf" id="uf">
+                        <input type="text" placeholder="Estado" aria-label="Estado" name="estado" id="uf">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
-                        <input type="text"  placeholder="CPF: 000.000.000-00" maxlength="11" id="cpf"
-                        oninput="mascaraCpf('cpf')" onkeyup="cpfCheck(this)" required >
+                        <input type="text"  placeholder="CPF: 000.000.000-00" maxlength="11" id="cpfInput"
+                        oninput="mascaraCpf('cpf')" name="cpf" required >
                     </div>
                     <div class="col">
                         <input type="text"  placeholder="CEP: 000.000.000-00" maxlength="8" name="cep" id="cep"
-                         onblur="buscaCep(this.value)" required  >
+                         onblur="buscaCep(this.value)" name="cep" required  >
                     </div>
                     </div>
                     <div class="row">
                         <div class="DataNasc">
-                        <input type="date" name="" id="">
+                        <input type="date" name="data_nasc" id="">
                     </div>
                     <div class="col-gen">
-                        <select name="" id="Gen">
+                        <select name="genero" id="">
               
-                          <option value="1">Masculino</option>
-                          <option value="2">Feminino</option>
-                          <option value="3">Outros</option>
-                          <option value="4" selected>Gênero</option>
+                          <option value="Masculino">Masculino</option>
+                          <option value="Feminino">Feminino</option>
+                          <option value="Outros">Outros</option>
+                          <option value="Gênero" selected>Gênero</option>
                         </select>
                       </div>
                       <div class="col-cur">
-                        <select name="" id="Cur">
+                        <select name="curso" id="">
               
-                          <option value="enfrm">Enfermagem</option>
-                          <option value="info">Informática</option>
-                          <option value="com">Comércio</option>
-                          <option value="adm" >Administração</option>
+                          <option value="Enfermagem">Enfermagem</option>
+                          <option value="Informática">Informática</option>
+                          <option value="Comércio">Comércio</option>
+                          <option value="Administração" >Administração</option>
                           <option value="5" selected>Curso</option>
                         </select>
                       </div>
                     </div>
                  <div class="row">
                    <div class="col">
-                    <select name="" id="Def">
-                        <option value="1">Baixa visão</option>
-                        <option value="2">Cegueira</option>
-                        <option value="3">Deficiêcia auditiva</option>
-                        <option value="4" >Deficiêcia física</option>
-                        <option value="5" >Deficiêcia intelectual</option>
-                        <option value="6" >Surdez</option>
-                        <option value="7" >Surdocegueira</option>
-                        <option value="4" >Deficiêcia múltipla</option>
-                        <option value="4" >Transtorno de espectro autista</option>
-                        <option value="5" selected>Deficiências</option>
+                    <select name="deficiencia" id="">
+                        <option value="BaixaVisão">Baixa visão</option>
+                        <option value="Cegueira">Cegueira</option>
+                        <option value="DeficiêciaAuditiva">Deficiêcia auditiva</option>
+                        <option value="DeficiêciaFísica" >Deficiêcia física</option>
+                        <option value="DeficiêciaIntelectual" >Deficiêcia intelectual</option>
+                        <option value="Surdez" >Surdez</option>
+                        <option value="Surdocegueira" >Surdocegueira</option>
+                        <option value="DeficiêciaMúltipla" >Deficiêcia múltipla</option>
+                        <option value="TranstornoDeEspectroAutista" >Transtorno de espectro autista</option>
+                        <option value="Nenhuma" >Nenhuma</option>
+                        <option value="Deficiências" selected>Deficiências</option>
                     </select>
                    </div> 
                    <div class="col">
-                    <select name="" id="Concorrencia">
+                    <select name="concorrencia" id="">
               
-                        <option value="1">Escola pública</option>
-                        <option value="2">Escola privada</option>
-                        <option value="4" selected>Concorrência</option>
+                        <option value="EscolaPública">Escola pública</option>
+                        <option value="EscolaPrivada">Escola privada</option>
+                        <option value="Concorrência" selected>Concorrência</option>
                       </select>
                    </div>
                   </div>
@@ -167,10 +165,10 @@ include "connectBD.php";
                     <td>Matemática</td>
 
                     <!-- repita esta porra aq <3 -->
-                    <td><input name="6Matematica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?"  id="myInput" min="0" max="10" oninput="validateInput()" required> </td>
-                    <td><input name="7Matematica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="8Matematica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Matematica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input name="matematica6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="matematica7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="matematica8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="matematica9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
                 </tr>
 
           
@@ -178,18 +176,18 @@ include "connectBD.php";
 
                 <tr>
                     <td>Português</td>
-                    <td><input name="6Portugues"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7Portugues"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Portugues"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Portugues"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input name="portugues6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="portugues7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td> 
+                    <td><input name="portugues8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="portugues9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
                
                 </tr>
                   <tr>
                     <td>Ciências</td>
-                    <td><input name="6Ciencias"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()"  required/></td>
-                    <td><input name="7Ciencias"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Ciencias"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Ciencias"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input name="ciencias6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="ciencias7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td> 
+                    <td><input name="ciencias8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="ciencias9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
                
                 </tr>
                
@@ -197,59 +195,53 @@ include "connectBD.php";
                 
                 <tr>
                     <td>História</td>
-                    <td><input name="6Historia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()"  required/></td>
-                    <td><input name="7Historia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Historia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Historia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input name="historia6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="historia7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td> 
+                    <td><input name="historia8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="historia9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
                
                 </tr>
                 <tr>
                     <td>Geografia</td>
-                    <td><input name="6Geografia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7Geografia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Geografia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Geografia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input name="geografia6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="geografia7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td> 
+                    <td><input name="geografia8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="geografia9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
                
                 </tr>
                 <tr>
                     <td>Inglês</td>
-                    <td><input name="6Ingles"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7Ingles"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Ingles"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Ingles"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input name="ingles6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="ingles7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td> 
+                    <td><input name="ingles8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="ingles9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
                
                 </tr>
                 <tr>
                     <td>Artes</td>
-                    <td><input name="6Artes"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7Artes"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()"  required/></td> 
-                    <td><input name="8Artes"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Artes"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input name="artes6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="artes7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td> 
+                    <td><input name="artes8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="artes9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
                
                 </tr>
                 <tr>
                     <td>Ed.fisica</td>
-                    <td><input name="6EdFisica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7EdFisica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8EdFisica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9EdFisica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input name="edfisica6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="edfisica7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td> 
+                    <td><input name="edfisica8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
+                    <td><input name="edfisica9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" required/></td>
                 </tr>
             </tbody>
 
         </div>
         </table>
 
-        <div class="btn-container">
+  
         <button type="submit" class="enviar" >Salvar</button>
-        </div>
     </div>
     </div>
 
-    </form>
-
-
-    <form>
-        
     </form>
     
  
