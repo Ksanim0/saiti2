@@ -33,7 +33,7 @@ include "connectBD.php";
                 <div class="row-1">
                     <div class="col-0">
                         <a href="https://www.ceara.gov.br/"target="_blank"><img src="logo-governo.svg" alt="Logo do Governo do Ceará"></a>
-                        <a href="https://www.instagram.com/eeepmanoelmano/"target="_blank"><img src="logo-mm.svg" alt="Logo da EEEP Manoel Mano"></a>
+                        <a href="https://selecao.eeepmanoelmano.com.br/"target="_self"><img src="logo-mm.svg" alt="Logo da EEEP Manoel Mano"></a>
                     </div>
                     <div class="col-0" id="Titulo"  >
                         <h3>formulario</h3>
