@@ -34,7 +34,7 @@
         <div class="area-formulario">
             <div class="formulario">
                     <div class="botoes">
-                        <a href="./FormWeb/index.php">  <button class="btn" target ="_blank"> <img src="./assets/icon.svg"> <br> CADASTRO DE ALUNOS</button></a>
+                        <a href="./FormWeb-IN/index.php">  <button class="btn" target ="_blank"> <img src="./assets/icon.svg"> <br> CADASTRO DE ALUNOS</button></a>
                        <a href="./alunosInscritos/index.php"> <button class="btn" id="sla"> <img src="./assets/icon2.svg" alt="" height="139px"> <br> GERAR RELATÓRIO</button></a>
                         <a href="./ListarAlunos/index.php"><button class="btn"> <img src="./assets/icon3.svg" alt=""> <br>  ALUNOS CADASTRADOS</button></a>
                      </div>
