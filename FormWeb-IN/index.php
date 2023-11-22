@@ -66,20 +66,20 @@ include "connectBD.php";
                  </div>
 
                     <div class="mb-3">
-                        <input type="text" class="col-01" placeholder="Nome completo" required>
-                        <input type="text" class="col-01" placeholder="Nome Social">
-                        <input type="text" class="col-01" placeholder="Nome Mãe">
-                        <input type="text" class="col-01" placeholder="Nome Pai">
+                        <input type="text" class="col-01" placeholder="Nome completo" name="nome_completo" required>
+                        <input type="text" class="col-01" placeholder="Nome Social" name="nome_social">
+                        <input type="text" class="col-01" placeholder="Nome Mãe" name="nome_mae">
+                        <input type="text" class="col-01" placeholder="Nome Pai" name="nome_pai>
                     </div>
                     <div class="row">
                         
                         <div class="col">
                         <input type="text"  placeholder="Telefone 1" maxlength="14" id="telefone"
-                        oninput="mascaraTel('telefoneInput')" onkeyup="mascara('(##) ####-####',this,event,true)" required >
+                        oninput="mascaraTel('telefoneInput')" onkeyup="mascara('(##) ####-####',this,event,true)" name="telefone1" required >
                     </div>
 
                     <div class="col">
-                        <input type="text"  placeholder="Telefone 2" maxlength="8" name="cep" id="cep"
+                        <input type="text"  placeholder="Telefone 2" maxlength="8" name="telefone2" id="cep"
                          onblur="buscaCep(this.value)" >
                     </div>
                     </div>
@@ -87,7 +87,7 @@ include "connectBD.php";
                         
                         <div class="col">
                         <input type="text"  placeholder="CPF: 000.000.000-00" maxlength="11" id="cpf"
-                        oninput="mascaraCpf('cpf')" onkeyup="cpfCheck(this)" required >
+                        oninput="mascaraCpf('cpf')" onkeyup="cpfCheck(this)" name= "cpf" required >
                     </div>
 
                     <div class="col">
@@ -105,57 +105,57 @@ include "connectBD.php";
                     </div>
                     <div class="row">
                     <div class="col">
-                        <input type="text" placeholder="Município" aria-label="Município" name="localidade" id="localidade">
+                        <input type="text" placeholder="Município" aria-label="Município" name="municipio" id="municipio">
                         </div>
                     <div class="col">
-                    <input type="text" placeholder="Estado" aria-label="Estado" name="uf" id="uf">
+                    <input type="text" placeholder="Estado" aria-label="Estado" name="estado" id="estado">
                         </div>
                     </div>
                     
                     <div class="row">
                         <div class="DataNasc">
-                        <input type="date" name="" id="">
+                        <input type="date" name="data_nasc" id="">
                     </div>
                     <div class="col-gen">
-                        <select name="" id="Gen">
+                        <select name="genero" id="Gen">
               
-                          <option value="1">Masculino</option>
-                          <option value="2">Feminino</option>
-                          <option value="3">Outros</option>
+                          <option value="Masculino">Masculino</option>
+                          <option value="Feminino">Feminino</option>
+                          <option value="Outro">Outros</option>
                           <option value="4" selected>Gênero</option>
                         </select>
                       </div>
                       <div class="col-cur">
-                        <select name="" id="Cur">
+                        <select name="curso" id="Cur">
               
-                          <option value="enfrm">Enfermagem</option>
-                          <option value="info">Informática</option>
-                          <option value="com">Comércio</option>
-                          <option value="adm" >Administração</option>
+                          <option value="Enfermagem">Enfermagem</option>
+                          <option value="Informatica">Informática</option>
+                          <option value="Comercio">Comércio</option>
+                          <option value="Administracao" >Administração</option>
                           <option value="5" selected>Curso</option>
                         </select>
                       </div>
                     </div>
                  <div class="row">
                    <div class="col">
-                    <select name="" id="Def">
-                        <option value="1">Baixa visão</option>
-                        <option value="2">Cegueira</option>
-                        <option value="3">Deficiêcia auditiva</option>
-                        <option value="4" >Deficiêcia física</option>
-                        <option value="5" >Deficiêcia intelectual</option>
-                        <option value="6" >Surdez</option>
-                        <option value="7" >Surdocegueira</option>
-                        <option value="4" >Deficiêcia múltipla</option>
-                        <option value="4" >Transtorno de espectro autista</option>
+                    <select name="deficiencia" id="Def">
+                        <option value="BaixaVisao">Baixa visão</option>
+                        <option value="Cegueira">Cegueira</option>
+                        <option value="DeficienciaAuditiva">Deficiêcia auditiva</option>
+                        <option value="DeficienciaFisica" >Deficiêcia física</option>
+                        <option value="DeficienciaIntelectual" >Deficiêcia intelectual</option>
+                        <option value="Surdez" >Surdez</option>
+                        <option value="Surdocegueira" >Surdocegueira</option>
+                        <option value="DeficienciaMultipla" >Deficiêcia múltipla</option>
+                        <option value="TranstornoDoEspectroAutista" >Transtorno de espectro autista</option>
                         <option value="5" selected>Deficiências</option>
                     </select>
                    </div> 
                    <div class="col">
-                    <select name="" id="Concorrencia">
+                    <select name="concorrencia" id="Concorrencia">
               
-                        <option value="1">Escola pública</option>
-                        <option value="2">Escola privada</option>
+                        <option value="EscolaPublica">Escola pública</option>
+                        <option value="EscolaPrivada">Escola privada</option>
                         <option value="4" selected>Concorrência</option>
                       </select>
                    </div>
