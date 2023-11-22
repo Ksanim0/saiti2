@@ -6,4 +6,4 @@ $password = "ee3pm41@3!MM";
 
 $conexao = mysqli_connect($servername, $username, $password, $database);
 
-?>
+?> 
