@@ -12,55 +12,15 @@ $cep = $_POST['cep'];
 
 $cpf = $_POST['cpf'];
 $data_nasc = $_POST['data_nasc'];
-$genero = "";
-if ($_POST['genero'] = 1) {
-    $genero = "Masculino";
-}else if($_POST['genero'] = 2) {
-    $genero = "Feminino";
-}else if ($_POST['genero'] = 3) {
-    $genero = "Outros";
-}
+$genero = $_POST['genero'];
 
-$curso = "";
-if ($_POST['curso'] = 1) {
-    $curso = "Enfermagem";
-}else if($_POST['curso'] = 2) {
-    $curso = "Informatica";
-}else if($_POST['curso'] = 3) {
-    $curso = "Comercio";
-}else if($_POST['curso'] = 4) {
-    $curso = "Administracao";
-}
 
-$deficiencia = "";
-if ($_POST['deficiencia'] = 1) {
-    $deficiencia = "Baixa Visao";
-}else if($_POST['deficiencia'] = 2) {
-    $deficiencia = "Cegueira";
-}else if($_POST['deficiencia'] = 3) {
-    $deficiencia = "Deficiêcia auditiva";
-}else if($_POST['deficiencia'] = 4) {
-    $deficiencia = "Deficiêcia física";
-}else if($_POST['deficiencia'] = 5) {
-    $deficiencia = "Deficiêcia intelectual";
-}else if($_POST['deficiencia'] = 6) {
-    $deficiencia = "Surdez";
-}else if($_POST['deficiencia'] = 7) {
-    $deficiencia = "SurdoCegueira";
-}else if($_POST['deficiencia'] = 8) {
-    $deficiencia = "Deficiêcia multipla";
-}else if($_POST['deficiencia'] = 9) {
-    $deficiencia = "Transtorno de espectro autista";
-}else if($_POST['deficiencia'] = 10) {
-    $deficiencia = "Nenhuma";
-}
+$curso = $_POST['curso'];
 
-$concorrencia = "";
-if ($_POST['concorrencia'] = 1) {
-    $concorrencia = "[privada]";
-}else if($_POST['concorrencia'] = 2) {
-    $concorrencia = "[publica]";
-}
+$deficiencia = $_POST['deficiencia'];
+
+$concorrencia = $_POST['concorrencia'];
+
 
 $portugues6 = $_POST['portugues6'];
 $portugues7 = $_POST['portugues7'];
@@ -108,7 +68,7 @@ $media = ($portugues6 +	$portugues7 + $portugues8 +	$portugues9 + $matematica6 +
 
 try{
    /*  $query =  *//* "INSERT INTO aluno(nome_completo, nome_social, endereco, municipio, bairro, estado, cpf, cep, deficiencia, genero, curso, concorrencia, portugues6, portugues7, portugues8, portugues9, matematica6, matematica7, matematica8, matematica9, ciencias6, ciencias7, ciencias8, ciencias9, historia6, historia7, historia8, historia9, geografia6, geografia7, geografia8, geografia9, ingles6, ingles7, ingles8, ingles9, artes6, artes7, artes8, artes9, edfisica6, edfisica7, edfisica8, edfisica9, data_nasc) VALUES ('$nome_completo', '$nome_social', '$endereco', '$municipio', '$bairro', '$estado', '$cpf', '$cep', '$deficiencia', '$genero', '$curso', '$concorrencia', '$portugues6' , '$portugues7' , '$portugues8' , '$portugues9' , '$matematica6' , '$matematica7' ,	'$matematica8' , '$matematica9' , '$ciencias6' , '$ciencias7' , '$ciencias8' , '$ciencias9' , '$historia6' , '$historia7' ,	'$historia8' , '$historia9' , '$geografia6' ,	'$geografia7' , '$geografia8' , '$geografia9' , '$ingles6', '$ingles7' , '$ingles8' , '$ingles9' , '$artes6' ,	'$artes7 , '$artes8' ,	'$artes9' , '$edfisica6' , '$edfisica7' , '$edfisica8' 	, '$edfisica9', '$data_nasc') "; */
-    $result = mysqli_query($conexao, "INSERT INTO aluno(nome_completo, nome_social, endereco, municipio, bairro, estado, cpf, cep, deficiencia, genero, curso, concorrencia, portugues6, portugues7, portugues8, portugues9, matematica6, matematica7, matematica8, matematica9, ciencias6, ciencias7, ciencias8, ciencias9, historia6, historia7, historia8, historia9, geografia6, geografia7, geografia8, geografia9, ingles6, ingles7, ingles8, ingles9, artes6, artes7, artes8, artes9, edfisica6, edfisica7, edfisica8, edfisica9, media, data_nasc) VALUES ('$nome_completo', '$nome_social', '$endereco', '$municipio', '$bairro', '$estado', '$cpf', '$cep', '$deficiencia', '$genero', '$curso', '$concorrencia', $portugues6 , $portugues7 , $portugues8 , $portugues9 , $matematica6 , $matematica7 ,	$matematica8 , $matematica9 , $ciencias6 , $ciencias7 , $ciencias8 , $ciencias9 , $historia6 , $historia7 ,	$historia8 , $historia9 , $geografia6 ,	$geografia7 , $geografia8 , $geografia9 , $ingles6, $ingles7 , $ingles8 , $ingles9 , $artes6 ,	$artes7 , $artes8 ,	$artes9 , $edfisica6 , $edfisica7 , $edfisica8 	, $edfisica9, $media, '$data_nasc') ");
+    $result = mysqli_query($conexao, "INSERT INTO aluno(nome_completo, nome_social, endereco, municipio, bairro, estado, cpf, cep, data_nasc, deficiencia, genero, curso, concorrencia) VALUES ('$nome_completo', '$nome_social', '$endereco', '$municipio', '$bairro', '$estado', '$cpf', '$cep', '$data_nasc', '$deficiencia', '$genero', '$curso', '$concorrencia') ");
 } catch (mysqli_sql_exception $e) { 
     var_dump($e);
     exit; 
