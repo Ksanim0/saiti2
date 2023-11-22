@@ -88,7 +88,7 @@ include "connectBD.php";
                         oninput="mascaraCpf('cpf')" onkeyup="cpfCheck(this)" required >
                     </div>
                     <div class="col">
-                        <input type="text"  placeholder="CEP: 000.000.000-00" maxlength="8" name="cep" id="cep"
+                        <input type="text"  placeholder="CEP: 00000-00" maxlength="8" name="cep" id="cep"
                          onblur="buscaCep(this.value)"    >
                     </div>
                     </div>
