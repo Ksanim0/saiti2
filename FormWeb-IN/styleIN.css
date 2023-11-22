@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: azure;
+    background-color: #e3dfe7;
    
     
 }
@@ -161,6 +161,7 @@ margin-right: 10px;
     box-shadow: 1px 1px 9px #0000001c;
     font-size: 0.8rem;
     position: relative;
+    background: #f7fcff;
 
     
    
@@ -223,6 +224,7 @@ margin-right: 10px;
         box-shadow: 1px 1px 9px #0000001c;
         font-size: 0.8rem;
         margin-right: 10px;
+        background: #f7fcff;
         
         }
 .row select:hover{
