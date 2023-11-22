@@ -1,0 +1,921 @@
+[17-Jun-2023 14:51:37 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect('', '', Object(SensitiveParameterValue), '')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:33 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:33 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:33 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:33 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:33 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:34 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:35 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:36 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:37 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Warning:  Undefined array key "DB_CONNECTION" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 2
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Warning:  Undefined array key "DB_DATABASE" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 3
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Warning:  Undefined array key "DB_USERNAME" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 4
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Warning:  Undefined array key "DB_PASSWORD" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 5
+[17-Jun-2023 14:59:38 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php(7): mysqli_connect(NULL, NULL, Object(SensitiveParameterValue), NULL)
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/alunosInscritos/connectBD.php on line 7
+[17-Jun-2023 15:20:12 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'trabweb')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:01 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:02 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:38 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:39 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[18-Jun-2023 18:58:40 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[28-Jun-2023 12:55:52 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[28-Jun-2023 12:56:31 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "nome_completo" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 4
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "nome_social" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 5
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "endereco" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 7
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "bairro" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 8
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "municipio" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 9
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "estado" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 10
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "cep" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 11
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "cpf" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 13
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "data_nasc" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 14
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "portugues6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 65
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "portugues7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 66
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "portugues8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 67
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "portugues9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 68
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "matematica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 70
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "matematica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 71
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "matematica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 72
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "matematica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 73
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "ciencias6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 75
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "ciencias7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 76
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "ciencias8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 77
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "ciencias9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 78
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "historia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 80
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "historia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 81
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "historia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 82
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "historia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 83
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "geografia6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 85
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "geografia7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 86
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "geografia8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 87
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "geografia9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 88
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "ingles6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 90
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "ingles7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 91
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "ingles8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 92
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "ingles9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 93
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "artes6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 95
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "artes7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 96
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "artes8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 97
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "artes9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 98
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "edfisica6" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 100
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "edfisica7" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 101
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "edfisica8" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 102
+[28-Jun-2023 12:56:33 America/Fortaleza] PHP Warning:  Undefined array key "edfisica9" in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/salvar.php on line 103
+[02-Sep-2023 13:02:07 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'trabweb')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:02:11 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'trabweb')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:02:12 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'trabweb')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:02:12 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'trabweb')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:02:13 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'trabweb')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:03:47 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'trabweb')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:09:11 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'eeepma26_battle...')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:22:00 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'eeepma26_battle...')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:24:34 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'eeepma26_battle...')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:24:34 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'eeepma26_battle...')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:25:58 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'eeepma26_edital '@'localhost' (using password: YES) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'eeepma26_edital...', Object(SensitiveParameterValue), 'eeepma26_battle...')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
+[02-Sep-2023 13:29:27 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'eeepma26_edital '@'localhost' (using password: YES) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php(7): mysqli_connect('localhost', 'eeepma26_edital...', Object(SensitiveParameterValue), 'eeepma26_battle...')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/index.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/FormWeb/connectBD.php on line 7
