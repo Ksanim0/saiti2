@@ -8,6 +8,9 @@
     <title>EEEP Manoel Mano | Index</title>
     <link rel="stylesheet" href="style1.css">
     <link rel="stylesheet" href="btn-style.css">
+    <!-- Favicon EEEP Manoel Mano -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://eeepmanoelmano.com.br/favicon.svg">
+   
 
 </head>
 <body>

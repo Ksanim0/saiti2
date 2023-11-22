@@ -11,9 +11,12 @@ include "listar.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>EEEP Manoel Mano | Login</title>
+    <title>EEEP Manoel Mano | Index</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="btn-style.css">
+    <!-- Favicon EEEP Manoel Mano -->
+    <link rel="icon" type="image/png" sizes="32x32" href="https://eeepmanoelmano.com.br/favicon.svg">
+   
 
 </head>
 <body>
