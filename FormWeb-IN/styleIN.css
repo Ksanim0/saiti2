@@ -137,7 +137,7 @@ margin-right: 10px;
     margin-top: -6%;
 }
 
-#rua, #localidade, #cpf{
+#rua, #localidade, #cpf, #telefoneInput, #telefone{
     width: 43vh;
 }
 

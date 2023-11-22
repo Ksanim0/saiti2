@@ -52,6 +52,9 @@ include "connectBD.php";
     </div>
     </div>
 
+    <script>
+    PureMask.format('mask', true);
+  </script>
     
 
     <div class="container-0">
@@ -65,33 +68,50 @@ include "connectBD.php";
                     <div class="mb-3">
                         <input type="text" class="col-01" placeholder="Nome completo" required>
                         <input type="text" class="col-01" placeholder="Nome Social">
+                        <input type="text" class="col-01" placeholder="Nome Mãe">
+                        <input type="text" class="col-01" placeholder="Nome Pai">
                     </div>
                     <div class="row">
+                        
                         <div class="col">
-                        <input type="text" placeholder="Endereço" aria-label="Endereço" name="rua" id="rua" required>
-                        </div>
-                        <div class="col">
-                        <input type="text" placeholder="Bairro" aria-label="Bairro" name="bairro" id="bairro">
-                        </div>
+                        <input type="text"  placeholder="Telefone 1" maxlength="14" id="telefone"
+                        oninput="mascaraTel('telefoneInput')" onkeyup="mascara('(##) ####-####',this,event,true)" required >
+                    </div>
+
+                    <div class="col">
+                        <input type="text"  placeholder="Telefone 2" maxlength="8" name="cep" id="cep"
+                         onblur="buscaCep(this.value)" >
+                    </div>
                     </div>
                     <div class="row">
-                        <div class="col">
-                        <input type="text" placeholder="Município" aria-label="Município" name="localidade" id="localidade" required>
-                        </div>
-                        <div class="col">
-                        <input type="text" placeholder="Estado" aria-label="Estado" name="uf" id="uf" required>
-                        </div>
-                    </div>
-                    <div class="row">
+                        
                         <div class="col">
                         <input type="text"  placeholder="CPF: 000.000.000-00" maxlength="11" id="cpf"
                         oninput="mascaraCpf('cpf')" onkeyup="cpfCheck(this)" required >
                     </div>
+
                     <div class="col">
-                        <input type="text"  placeholder="CEP: 00000-00" maxlength="8" name="cep" id="cep"
-                         onblur="buscaCep(this.value)"    >
+                        <input type="text"  placeholder="CEP: 0000-00" maxlength="8" name="cep" id="cep"
+                         onblur="buscaCep(this.value)" >
                     </div>
                     </div>
+                    <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Endereço" aria-label="Endereço" name="rua" id="rua">
+                        </div>
+                        <div class="col">
+                        <input type="text" placeholder="Bairro" aria-label="Bairro" name="bairro" id="bairro">
+                        </div> 
+                    </div>
+                    <div class="row">
+                    <div class="col">
+                        <input type="text" placeholder="Município" aria-label="Município" name="localidade" id="localidade">
+                        </div>
+                    <div class="col">
+                    <input type="text" placeholder="Estado" aria-label="Estado" name="uf" id="uf">
+                        </div>
+                    </div>
+                    
                     <div class="row">
                         <div class="DataNasc">
                         <input type="date" name="" id="">

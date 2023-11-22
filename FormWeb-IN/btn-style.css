@@ -1,12 +1,14 @@
 .fcc-btn {
-
-    color: azure;
+  
     padding: 15px 25px;
     text-decoration: none;
+    background-color: transparent;
+    
+
   }
   
 .fcc-btn {
-  
+
   color: rgb(0, 133, 59);
   padding: 15px 25px;
   text-decoration: none;
