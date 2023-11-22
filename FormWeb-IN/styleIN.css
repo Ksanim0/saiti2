@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: azure;
    
     
 }
@@ -16,7 +17,7 @@
     background: url(./base-ondas.svg) no-repeat -50px bottom !important;
     height: 100px;
     background-size: 600px;
-    background-color: #ba6262;
+    
 
 }
 
