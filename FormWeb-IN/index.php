@@ -60,7 +60,7 @@ include "connectBD.php";
     <div class="container-0">
         <div class="area-formulario">
             <div class="formulario">
-                <form action="" method="get">
+                <form action="" method="post">
                     <div class="col-0-vdc" >
                     Dados Pessoais:
                  </div>
