@@ -32,4 +32,5 @@ try{
  if ($result) {
     echo $data_nasc;
 }
+
 ?>
