@@ -6,14 +6,20 @@ $teste;
 $subtraiDef = "SELECT COUNT(nome_completo) FROM aluno WHERE deficiencia != 'Nenhuma'";
 $subDEFTratado = $conexao->query($subtraiDef);
 
+function cotasDef($conexao)
+{
 
-function cotasDef ($conexao) {
+  $consultaDefSQL = "SELECT nome_completo FROM aluno WHERE deficiencia != 'Nenhuma'";
+  $alunosDeficientes = $conexao->query($consultaDefSQL);
 
-$consultaDefSQL = "SELECT * FROM aluno WHERE deficiencia != 'Nenhuma'";
-$consultaTratada = $conexao->query($consultaDefSQL);
-
+  return $alunosDeficientes;
 
 }
-$usuario = mysqli_fetch_assoc($subDEFTratado);
-echo $usuario[2];
+
+
+function aprovadosQuery(string $curso, string $conditions, $conexao){
+  $aprovados = $conexao->query("SELECT nome_completo, media FROM aluno WHERE curso = '$curso' " . $conditions);
+  return $aprovados;
+}
+
 ?>
