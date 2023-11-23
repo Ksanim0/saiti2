@@ -1,10 +1,11 @@
 <?php
 include "connectBD.php";
+include "funcaoCotas.php";
+include "cursos.php";
 #Administração Cotas
 $AprovadosDEFSQL = "SELECT * FROM aluno WHERE deficiencia!='Nenhuma' AND curso='Administração' ORDER BY media DESC LIMIT 2;";
 $LimitadorCotaDEF = "SELECT COUNT(nome_completo) FROM aluno WHERE curso='Administração' AND deficiencia!='Nenhuma' LIMIT 2";
 
-$AprovadosAdministraçãoAmplaPublicaSQL = "SELECT * FROM aluno WHERE curso ='Administração' AND deficiencia = 'Nenhuma' AND concorrencia = 'EscolaPública' AND (bairro != 'Príncipe Imperial' AND bairro != 'Venâncios') ORDER BY media DESC LIMIT 24;";
 $AprovadosAdministraçãoCotaTerritorialSQL = "SELECT * FROM aluno WHERE curso='Administração' AND deficiencia='Nenhuma' AND concorrencia='EscolaPública' AND (bairro='Príncipe Imperial' OR bairro='Venâncios') ORDER BY media DESC LIMIT 10";
 $AprovadosAdministraçãoAmplaPrivadaSQL = "SELECT * FROM aluno WHERE curso='Administração' AND deficiencia='Nenhuma' AND concorrencia='EscolaPrivada' AND (bairro!='Príncipe Imperial' AND bairro!='Venâncios') ORDER BY media DESC LIMIT 6;";
 $AprovadosAdministraçãoCTPrivadaSQL = "SELECT * FROM aluno WHERE curso='Administração' AND deficiencia='Nenhuma' AND concorrencia='EscolaPrivada' AND (bairro='Príncipe Imperial' OR bairro='Venâncios') ORDER BY media DESC LIMIT 3";
@@ -16,11 +17,11 @@ $NaoAprovadosAdministraçãoCTPrivadaSQL = "SELECT * FROM aluno WHERE curso='Adm
 $NaoAprovadosDEFAdministraçãoSQL = "SELECT * FROM aluno WHERE deficiencia!='Nenhuma' AND curso='Administração' ORDER BY media DESC LIMIT 10 OFFSET 2;";
 #CONSULTAS
 $vagas = 45;
+$defCount = mysqli_num_rows(cotasDef($conexao));
 
-$numDEF = $conexao->query($LimitadorCotaDEF);
+$limitAmpla =$defCount  <= 0 ? "26" : ($defCount == 1 ? "25" : "26");
 
-$AprovadosDEF = $conexao->query($AprovadosDEFSQL);
-$AprovadosAMPLAPUBLICAENFERM = $conexao->query($AprovadosAdministraçãoAmplaPublicaSQL);
+$AprovadosAMPLAPUBLICAENFERM = aprovadosQuery(Cursos::ADMINISTRACAO, " AND deficiencia = 'Nenhuma' AND concorrencia = 'EscolaPública' AND (bairro != 'Príncipe Imperial' AND bairro != 'Venâncios') ORDER BY media DESC LIMIT $limitAmpla;" , $conexao);
 $AprovadosCOTATERRITORIALENFERM = $conexao->query($AprovadosAdministraçãoCotaTerritorialSQL);
 $AprovadosAMPLAENFERMPRIVADA = $conexao->query($AprovadosAdministraçãoAmplaPrivadaSQL);
 $AprovadosCTEnfermagePrivada = $conexao->query($AprovadosAdministraçãoCTPrivadaSQL);
@@ -60,7 +61,7 @@ $NaoAprovadosDEFAdministração = $conexao->query($NaoAprovadosDEFAdministraçã
     <tbody>
         <tr>
             <th><?php echo $usuario['nome_completo'];?></th>
-                <td> <?php echo $usuario['media'];?> </td>    
+                <td> <?php echo $usuario['media'];?> </td>      
         </tr>
     </tbody>
                                                     <?php } ?>

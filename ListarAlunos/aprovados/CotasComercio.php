@@ -16,11 +16,11 @@ $NaoAprovadosComércioCTPrivadaSQL = "SELECT * FROM aluno WHERE curso='Comércio
 $NaoAprovadosDEFComércioSQL = "SELECT * FROM aluno WHERE deficiencia!='Nenhuma' AND curso='Comércio' ORDER BY media DESC LIMIT 10 OFFSET 2;";
 #CONSULTAS
 $vagas = 45;
+$defCount = mysqli_num_rows(cotasDef($conexao));
 
-$numDEF = $conexao->query($LimitadorCotaDEF);
+$limitAmpla =$defCount  <= 0 ? "26" : ($defCount == 1 ? "25" : "26");
 
-$AprovadosDEF = $conexao->query($AprovadosDEFSQL);
-$AprovadosAMPLAPUBLICAENFERM = $conexao->query($AprovadosComércioAmplaPublicaSQL);
+$AprovadosAMPLAPUBLICAENFERM = aprovadosQuery(Cursos::ENFERMAGEM, " AND deficiencia = 'Nenhuma' AND concorrencia = 'EscolaPública' AND (bairro != 'Príncipe Imperial' AND bairro != 'Venâncios') ORDER BY media DESC LIMIT $limitAmpla;" , $conexao);
 $AprovadosCOTATERRITORIALENFERM = $conexao->query($AprovadosComércioCotaTerritorialSQL);
 $AprovadosAMPLAENFERMPRIVADA = $conexao->query($AprovadosComércioAmplaPrivadaSQL);
 $AprovadosCTEnfermagePrivada = $conexao->query($AprovadosComércioCTPrivadaSQL);
