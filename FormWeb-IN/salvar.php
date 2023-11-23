@@ -4,7 +4,7 @@ include "connectBD.php";
 $nome_completo = $_POST['nome_completo'];
 $nome_social = $_POST['nome_social'];
 
-$endereco = $_POST['endereco'];
+$endereco = $_POST['rua'];
 $bairro = $_POST['bairro'];
 $municipio = $_POST['municipio'];
 $estado = $_POST['estado'];
