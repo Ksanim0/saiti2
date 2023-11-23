@@ -1,0 +1,108 @@
+[23-Nov-2023 10:58:38 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'trabweb')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/connectBD.php on line 7
+[23-Nov-2023 10:58:41 America/Fortaleza] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/connectBD.php:7
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/connectBD.php(7): mysqli_connect('localhost', 'root', Object(SensitiveParameterValue), 'trabweb')
+#1 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(2): include('/home1/eeepma26...')
+#2 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/connectBD.php on line 7
+[23-Nov-2023 10:59:40 America/Fortaleza] PHP Warning:  include(cursos.php): Failed to open stream: No such file or directory in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:40 America/Fortaleza] PHP Warning:  include(): Failed opening 'cursos.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:40 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Cursos" not found in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 24
+[23-Nov-2023 10:59:42 America/Fortaleza] PHP Warning:  include(cursos.php): Failed to open stream: No such file or directory in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:42 America/Fortaleza] PHP Warning:  include(): Failed opening 'cursos.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Cursos" not found in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 24
+[23-Nov-2023 10:59:42 America/Fortaleza] PHP Warning:  include(cursos.php): Failed to open stream: No such file or directory in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:42 America/Fortaleza] PHP Warning:  include(): Failed opening 'cursos.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:42 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Cursos" not found in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 24
+[23-Nov-2023 10:59:43 America/Fortaleza] PHP Warning:  include(cursos.php): Failed to open stream: No such file or directory in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:43 America/Fortaleza] PHP Warning:  include(): Failed opening 'cursos.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Cursos" not found in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 24
+[23-Nov-2023 10:59:43 America/Fortaleza] PHP Warning:  include(cursos.php): Failed to open stream: No such file or directory in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:43 America/Fortaleza] PHP Warning:  include(): Failed opening 'cursos.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Cursos" not found in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 24
+[23-Nov-2023 10:59:43 America/Fortaleza] PHP Warning:  include(cursos.php): Failed to open stream: No such file or directory in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:43 America/Fortaleza] PHP Warning:  include(): Failed opening 'cursos.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 4
+[23-Nov-2023 10:59:43 America/Fortaleza] PHP Fatal error:  Uncaught Error: Class "Cursos" not found in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:24
+Stack trace:
+#0 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 24
+[23-Nov-2023 11:01:57 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:01:57 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:04:54 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:04:54 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:07 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:07 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:11 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:11 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:11 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:11 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:11 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:11 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:11 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:11 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:12 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:12 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:12 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:05:12 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:06:44 America/Fortaleza] PHP Warning:  Undefined variable $AprovadosDEF in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
+[23-Nov-2023 11:06:44 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php:235
+Stack trace:
+#0 /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php(235): mysqli_fetch_assoc(NULL)
+#1 {main}
+  thrown in /home1/eeepma26/selecao.eeepmanoelmano.com.br/ListarAlunos/aprovados/CotasADM.php on line 235
