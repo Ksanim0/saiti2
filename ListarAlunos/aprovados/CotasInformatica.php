@@ -1,5 +1,7 @@
 <?php
 include "connectBD.php";
+include "funcaoCotas.php";
+include "cursos.php";
 #Informática Cotas
 $AprovadosDEFSQL = "SELECT * FROM aluno WHERE deficiencia!='Nenhuma' AND curso='Informática' ORDER BY media DESC LIMIT 2;";
 $LimitadorCotaDEF = "SELECT COUNT(nome_completo) FROM aluno WHERE curso='Informática' AND deficiencia!='Nenhuma' LIMIT 2";
@@ -20,7 +22,7 @@ $vagas = 45;
 $defCount = mysqli_num_rows(cotasDef($conexao));
 
 $limitAmpla =$defCount  <= 0 ? "26" : ($defCount == 1 ? "25" : "26");
-
+$AprovadosDEF = $conexao->query($AprovadosDEFSQL);
 $AprovadosAMPLAPUBLICAENFERM = aprovadosQuery(Cursos::INFORMATICA, " AND deficiencia = 'Nenhuma' AND concorrencia = 'EscolaPública' AND (bairro != 'Príncipe Imperial' AND bairro != 'Venâncios') ORDER BY media DESC LIMIT $limitAmpla;" , $conexao);
 $AprovadosCOTATERRITORIALENFERM = $conexao->query($AprovadosInformáticaCotaTerritorialSQL);
 $AprovadosAMPLAENFERMPRIVADA = $conexao->query($AprovadosInformáticaAmplaPrivadaSQL);

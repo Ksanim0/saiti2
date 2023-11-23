@@ -1,10 +1,7 @@
 <?php
 include "connectBD.php";
-
-
-
-
-
+include "funcaoCotas.php";
+include "cursos.php";
 #ENFERMAGEM Cotas
 $AprovadosDEFSQL = "SELECT nome_completo, media FROM aluno WHERE deficiencia!='Nenhuma' AND curso='Enfermagem' ORDER BY media DESC LIMIT 2;";
 $LimitadorCotaDEF = "SELECT COUNT(nome_completo) FROM aluno WHERE curso='Enfermagem' AND deficiencia!='Nenhuma' LIMIT 2";
@@ -24,7 +21,7 @@ $vagas = 45;
 $defCount = mysqli_num_rows(cotasDef($conexao));
 
 $limitAmpla =$defCount  <= 0 ? "26" : ($defCount == 1 ? "25" : "26");
-
+$AprovadosDEF = $conexao->query($AprovadosDEFSQL);
 $AprovadosAMPLAPUBLICAENFERM = aprovadosQuery(Cursos::ENFERMAGEM, " AND deficiencia = 'Nenhuma' AND concorrencia = 'EscolaPública' AND (bairro != 'Príncipe Imperial' AND bairro != 'Venâncios') ORDER BY media DESC LIMIT $limitAmpla;" , $conexao);
 $AprovadosCOTATERRITORIALENFERM = $conexao->query($AprovadosEnfermagemCotaTerritorialSQL);
 $AprovadosAMPLAENFERMPRIVADA = $conexao->query($AprovadosEnfermagemAmplaPrivadaSQL);

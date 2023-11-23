@@ -21,6 +21,7 @@ $defCount = mysqli_num_rows(cotasDef($conexao));
 
 $limitAmpla =$defCount  <= 0 ? "26" : ($defCount == 1 ? "25" : "26");
 
+$AprovadosDEF = $conexao->query($AprovadosDEFSQL);
 $AprovadosAMPLAPUBLICAENFERM = aprovadosQuery(Cursos::ADMINISTRACAO, " AND deficiencia = 'Nenhuma' AND concorrencia = 'EscolaPública' AND (bairro != 'Príncipe Imperial' AND bairro != 'Venâncios') ORDER BY media DESC LIMIT $limitAmpla;" , $conexao);
 $AprovadosCOTATERRITORIALENFERM = $conexao->query($AprovadosAdministraçãoCotaTerritorialSQL);
 $AprovadosAMPLAENFERMPRIVADA = $conexao->query($AprovadosAdministraçãoAmplaPrivadaSQL);
