@@ -1,5 +1,12 @@
 <?php
 include "../connectBD.php";
+
+$id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_NUMBER_INT);
+$result_aluno = "SELECT * FROM aluno WHERE id = '$id'";
+$resultado_aluno = mysqli_query($conexao, $result_aluno);
+$linha_aluno = mysqli_fetch_assoc($resultado_aluno);
+
+
 ?>
  
 <!DOCTYPE html>
@@ -9,7 +16,7 @@ include "../connectBD.php";
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>EEEP Manoel Mano | Cadastro Alunos</title>
+    <title>EEEP Manoel Mano | Inserir/Editar Dados Alunos</title>
     <link rel="stylesheet" href="styleNew.css">
     <link rel="stylesheet" href="btn-style.css">
     <meta name="google-site-verification" content="ezTnfxOAOeXB6FaEOsqR0fcf63u74YI3CQX8biM0w7I" />
@@ -57,57 +64,59 @@ include "../connectBD.php";
     <div class="container-0">
         <div class="area-formulario">
             <div class="formulario">
-                <form action="" method="post">
+                <form action="editar.php" method="post">
                     <div class="col-0-vdc" >
                     Dados Pessoais:
                  </div>
 
                     <div class="mb-3">
-                        <input type="text" class="col-01" placeholder="Nome completo*" name="nome_completo" required>
-                        <input type="text" class="col-01" placeholder="Nome Social" name="nome_social">
-                        <input type="text" class="col-01" placeholder="Nome Mãe" name="nome_mae">
-                        <input type="text" class="col-01" placeholder="Nome Pai" name="nome_pai">
+                        <input type="text" class="col-01" placeholder="Nome completo*" name="nome_completo" value="<?php echo $linha_aluno['nome_completo'];  ?>" required>
+                        <input type="text" class="col-01" placeholder="Nome Social" name="nome_social" value="<?php echo $linha_aluno['nome_social'];  ?>">
+                        <input type="text" class="col-01" placeholder="Nome Mãe" name="nome_mae" value="<?php echo $linha_aluno['nome_mae'];  ?>">
+                        <input type="text" class="col-01" placeholder="Nome Pai" name="nome_pai" value="<?php echo $linha_aluno['nome_pai'];  ?>">
                     </div>
                     <div class="row">
                         
                         <div class="col"> 
-                         <input type="text" name="telefone1" id="telefoneInput" placeholder="Contato 1*" maxlength="11" oninput="mascaraTel(this)" required>
+                         <input type="text" name="telefone1" id="telefoneInput" placeholder="Contato 1*" maxlength="11" oninput="mascaraTel(this)" value="<?php echo $linha_aluno['telefone1'];  ?>" required>
                     </div>
 
                     <div class="col">
-                    <input type="text" name="telefone2" id="telefoneInput2" placeholder="Contato 2" maxlength="11" oninput="mascaraTel2(this)" >
+                    <input type="text" name="telefone2" id="telefoneInput2" placeholder="Contato 2" maxlength="11" oninput="mascaraTel2(this)" value="<?php echo $linha_aluno['telefone2'];  ?>" >
                     </div>
                     </div>
                     <div class="row">
                         
                         <div class="col">
                         <input type="text"  placeholder="CPF: 000.000.000-00*" maxlength="11" id="cpf"
-                        oninput="mascaraCpf('cpf')"  name= "cpf" required >
+                        oninput="mascaraCpf('cpf')"  name= "cpf" value="<?php echo $linha_aluno['cpf'];  ?>" required >
                     </div>
 
                     <div class="col">
                         <input type="text"  placeholder="CEP: 0000-00" maxlength="8" name="cep" id="cep"
-                         onblur="buscaCep(this.value)" >
+                         onblur="buscaCep(this.value)" value="<?php echo $linha_aluno['cep'];  ?>" >
                     </div>
                     </div>
                     <div class="row">
                     <div class="col">
-                        <input type="text" placeholder="Endereço" aria-label="Endereço" name="rua" id="rua" required>
+                        <input type="text" placeholder="Endereço" aria-label="Endereço" name="endereco" id="rua" value="<?php echo $linha_aluno['endereco'];  ?>" required>
                         </div>
                         <div class="col">
-                        <input type="text" placeholder="Bairro" aria-label="Bairro" name="bairro" id="bairro">
+                        <input type="text" placeholder="Bairro" aria-label="Bairro" name="bairro" id="bairro" value="<?php echo $linha_aluno['bairro'];  ?>">
                         </div> 
                     </div>
                     <div class="row">
                     <div class="col">
-                        <input type="text" placeholder="Município" aria-label="Município" name="municipio" id="localidade">
+                        <input type="text" placeholder="Município" aria-label="Município" name="municipio" id="localidade" value="<?php echo $linha_aluno['municipio'];  ?>">
                         </div>
                     <div class="col">
-                    <input type="text" placeholder="Estado" aria-label="Estado" name="estado" id="uf">
+                    <input type="text" placeholder="Estado" aria-label="Estado" name="estado" id="uf" value="<?php echo $linha_aluno['estado'];  ?>">
                         </div>
                     </div>
+
+                    <!-- SELECTS COMENTADOS NAO SEI SETAR KKK -->
                     
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="DataNasc">
                         <input type="date" name="data_nasc" id="">
                     </div>
@@ -155,7 +164,7 @@ include "../connectBD.php";
                         <option value="4" disabled selected>Concorrência</option>
                       </select>
                    </div>
-                  </div>
+                  </div> -->
                
 
                    
@@ -185,10 +194,10 @@ include "../connectBD.php";
                     <td>Matemática</td>
 
                     <!-- repita esta porra aq <3 -->
-                    <td><input name="6Matematica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?"  id="myInput" min="0" max="10" oninput="validateInput()" required> </td>
-                    <td><input name="7Matematica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="8Matematica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Matematica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['matematica6'];  ?>" name="matematica6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?"  id="myInput" min="0" max="10" oninput="validateInput()" required> </td>
+                    <td><input value="<?php echo $linha_aluno['matematica7'];  ?>" name="matematica7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['matematica8'];  ?>" name="matematica8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['matematica9'];  ?>" name="matematica9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
                 </tr>
 
           
@@ -196,18 +205,18 @@ include "../connectBD.php";
 
                 <tr>
                     <td>Português</td>
-                    <td><input name="6Portugues"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7Portugues"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Portugues"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Portugues"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['portugues6'];  ?>" name="portugues6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['portugues7'];  ?>" name="portugues7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
+                    <td><input value="<?php echo $linha_aluno['portugues8'];  ?>" name="portugues8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['portugues9'];  ?>" name="portugues9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
                
                 </tr>
                   <tr>
                     <td>Ciências</td>
-                    <td><input name="6Ciencias"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()"  required/></td>
-                    <td><input name="7Ciencias"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Ciencias"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Ciencias"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['ciencias6'];  ?>" name="ciencias6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()"  required/></td>
+                    <td><input value="<?php echo $linha_aluno['ciencias7'];  ?>" name="ciencias7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
+                    <td><input value="<?php echo $linha_aluno['ciencias8'];  ?>" name="ciencias8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['ciencias9'];  ?>" name="ciencias9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
                
                 </tr>
                
@@ -215,50 +224,52 @@ include "../connectBD.php";
                 
                 <tr>
                     <td>História</td>
-                    <td><input name="6Historia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()"  required/></td>
-                    <td><input name="7Historia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Historia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Historia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['historia6'];  ?>" name="historia6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()"  required/></td>
+                    <td><input value="<?php echo $linha_aluno['historia7'];  ?>" name="historia7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
+                    <td><input value="<?php echo $linha_aluno['historia8'];  ?>" name="historia8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['historia9'];  ?>" name="historia9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
                
                 </tr>
                 <tr>
                     <td>Geografia</td>
-                    <td><input name="6Geografia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7Geografia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Geografia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Geografia"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['geografia6'];  ?>" name="geografia6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['geografia7'];  ?>" name="geografia7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
+                    <td><input value="<?php echo $linha_aluno['geografia8'];  ?>" name="geografia8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['geografia9'];  ?>" name="geografia9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
                
                 </tr>
                 <tr>
                     <td>Inglês</td>
-                    <td><input name="6Ingles"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7Ingles"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8Ingles"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Ingles"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['ingles6'];  ?>" name="ingles6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['ingles7'];  ?>" name="ingles7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
+                    <td><input value="<?php echo $linha_aluno['ingles8'];  ?>" name="ingles8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['ingles9'];  ?>" name="ingles9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
                
                 </tr>
                 <tr>
                     <td>Artes</td>
-                    <td><input name="6Artes"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7Artes"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()"  required/></td> 
-                    <td><input name="8Artes"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9Artes"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['artes6'];  ?>" name="artes6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['artes7'];  ?>" name="artes7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()"  required/></td> 
+                    <td><input value="<?php echo $linha_aluno['artes8'];  ?>" name="artes8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['artes9'];  ?>" name="artes9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
                
                 </tr>
                 <tr>
                     <td>Ed.fisica</td>
-                    <td><input name="6EdFisica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="7EdFisica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
-                    <td><input name="8EdFisica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
-                    <td><input name="9EdFisica"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['edfisica6'];  ?>" name="edfisica6"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['edfisica7'];  ?>" name="edfisica7"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td> 
+                    <td><input value="<?php echo $linha_aluno['edfisica8'];  ?>" name="edfisica8"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
+                    <td><input value="<?php echo $linha_aluno['edfisica9'];  ?>" name="edfisica9"oninput=" if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"type = "number" maxlength = "5" pattern="[0-9] + ([,\.][0-9]+)?" id="myInput" min="0" max="10" oninput="validateInput()" required/></td>
                 </tr>
             </tbody>
 
         </div>
         </table>
 
+        <input type="hidden" name=id value="<?php echo $linha_aluno['id'];  ?>">
+
         <div class="btn-container">
-        <button type="submit" class="enviar" >Salvar</button>
+        <button type="submit" class="enviar" >Editar</button>
         </div>
     </div>
     </div>
@@ -266,7 +277,7 @@ include "../connectBD.php";
     </form>
 
 
-    <script> console.log("<?php include "salvar.php"; ?>") </script>
+    <!-- <script> console.log("") </script> -->
     
     
  

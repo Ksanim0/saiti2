@@ -62,6 +62,7 @@ include "connectBD.php";
 
 
                 <!-- LISTAGEM DE ALUNOS INICIO -->
+                <form action="">
                 <?php
 
                 $pagina_atual = filter_input(INPUT_GET, 'pagina', FILTER_SANITIZE_NUMBER_INT);
@@ -79,7 +80,10 @@ include "connectBD.php";
                     while ($linha_aluno = mysqli_fetch_assoc($resultado_alunos)) {
                         echo "ID: " . $linha_aluno['id'] . "<br>";
                         echo "Nome completo: " . $linha_aluno['nome_completo'] . "<br>";
-                        echo "Curso escolhido: " . $linha_aluno['curso'] . "<br><hr>";
+                        echo "Curso escolhido: " . $linha_aluno['curso'] . "<br>";
+                        echo "<a href='./FormWeb/index.php?id=" . $linha_aluno['id'] . "'>Editar</a><br><hr>";
+                        
+                        
                     }
 
 
@@ -118,13 +122,15 @@ include "connectBD.php";
                         while ($linha_aluno = mysqli_fetch_assoc($sql_query)) {
                             echo "ID: " . $linha_aluno['id'] . "<br>";
                             echo "Nome completo: " . $linha_aluno['nome_completo'] . "<br>";
-                            echo "Curso escolhido: " . $linha_aluno['curso'] . "<br><hr>";
+                            echo "Curso escolhido: " . $linha_aluno['curso']. "<br>";
+                            echo "<a href='./FormWeb/index.php?id=" . $linha_aluno['id'] . "'>Editar</a><br><hr>";
                         }
     
                     }
 
                 }
                 ?>
+                </form>
                 <!-- LISTAGEM DE ALUNOS FIM -->
 
 
