@@ -55,51 +55,78 @@ include "connectBD.php";
             </div>
             <br>
             <div class="container">
+                <form action="">
+                    <input type="text" name="busca" placeholder="Digite aqui o nome do aluno" value="<?php if(isset($_GET['busca'])) echo $_GET['busca']; ?>">
+                    <button type="submit"> Pesquisar </button>
+                </form>
 
-            <?php
-                
+
+                <!-- LISTAGEM DE ALUNOS INICIO -->
+                <?php
+
                 $pagina_atual = filter_input(INPUT_GET, 'pagina', FILTER_SANITIZE_NUMBER_INT);
                 $pagina = (!empty($pagina_atual)) ? $pagina_atual : 1;
-                
+
                 $qtd_result_pag = 15;
                 $inicio = ($qtd_result_pag * $pagina) - $qtd_result_pag;
 
                 $result_aluno = "SELECT * FROM aluno LIMIT $inicio, $qtd_result_pag";
                 $resultado_alunos = mysqli_query($conexao, $result_aluno);
 
+                /* IF DE BUSCAR */
+                if (!isset($_GET['busca'])) {
 
-                while ($linha_aluno = mysqli_fetch_assoc($resultado_alunos)){
-                    echo "ID: " . $linha_aluno['id'] . "<br>";
-                    echo "Nome completo: " . $linha_aluno['nome_completo'] . "<br>";
-                    echo "Curso escolhido: " . $linha_aluno['curso'] . "<br><hr>";
-                }
-            
-            
-                $result_pg = "SELECT COUNT(id) AS num_result FROM aluno";
-                $resultado_pg = mysqli_query($conexao, $result_pg);
-                $linha_pg = mysqli_fetch_assoc($resultado_pg);
-                //echo $linha_pg['num_result'];
-
-                $quantidade_pg = ceil($linha_pg['num_result'] / $qtd_result_pag);
-                $max_link = 2;
-                echo " <a href='index.php?pagina=1'> Primeira </a> ";
-                
-                for ($pag_ant = $pagina - $max_link; $pag_ant <= $pagina-1; $pag_ant++) { 
-                    if($pag_ant >= 1){
-                        echo " <a href='index.php?pagina=$pag_ant'> $pag_ant </a> ";
+                    while ($linha_aluno = mysqli_fetch_assoc($resultado_alunos)) {
+                        echo "ID: " . $linha_aluno['id'] . "<br>";
+                        echo "Nome completo: " . $linha_aluno['nome_completo'] . "<br>";
+                        echo "Curso escolhido: " . $linha_aluno['curso'] . "<br><hr>";
                     }
-                }
 
-                echo "$pagina";
 
-                for ($pag_dps = $pagina + 1; $pag_dps <= $pagina + $max_link; $pag_dps++) { 
-                    if($pag_dps <= $quantidade_pg){
-                    echo " <a href='index.php?pagina=$pag_dps'> $pag_dps </a> ";
+                    $result_pg = "SELECT COUNT(id) AS num_result FROM aluno";
+                    $resultado_pg = mysqli_query($conexao, $result_pg);
+                    $linha_pg = mysqli_fetch_assoc($resultado_pg);
+                    //echo $linha_pg['num_result'];
+
+                    $quantidade_pg = ceil($linha_pg['num_result'] / $qtd_result_pag);
+                    $max_link = 2;
+                    echo " <a href='index.php?pagina=1'> Primeira </a> ";
+
+                    for ($pag_ant = $pagina - $max_link; $pag_ant <= $pagina - 1; $pag_ant++) {
+                        if ($pag_ant >= 1) {
+                            echo " <a href='index.php?pagina=$pag_ant'> $pag_ant </a> ";
+                        }
                     }
-                }
 
-                echo " <a href='index.php?pagina=$quantidade_pg'> Última </a> ";
-            ?>
+                    echo "$pagina";
+
+                    for ($pag_dps = $pagina + 1; $pag_dps <= $pagina + $max_link; $pag_dps++) {
+                        if ($pag_dps <= $quantidade_pg) {
+                            echo " <a href='index.php?pagina=$pag_dps'> $pag_dps </a> ";
+                        }
+                    }
+
+                    echo " <a href='index.php?pagina=$quantidade_pg'> Última </a> ";
+                } else{
+                    $pesquisa = $conexao->real_escape_string($_GET['busca']);
+                    $sql_code_search = "SELECT * FROM aluno WHERE nome_completo LIKE '%$pesquisa%' OR curso LIKE '%$pesquisa%'";
+                    $sql_query = $conexao->query($sql_code_search) or die ("Erro ao consultar. ".$conexao->error);
+
+                    if($sql_query->num_rows == 0){
+                        echo "<h2>Desculpa, não há nenhum aluno cadastrado com esse nome. Verifique se o nome está digitado corretamente e tente novamente.</h2>";
+                    } else {
+                        while ($linha_aluno = mysqli_fetch_assoc($sql_query)) {
+                            echo "ID: " . $linha_aluno['id'] . "<br>";
+                            echo "Nome completo: " . $linha_aluno['nome_completo'] . "<br>";
+                            echo "Curso escolhido: " . $linha_aluno['curso'] . "<br><hr>";
+                        }
+    
+                    }
+
+                }
+                ?>
+                <!-- LISTAGEM DE ALUNOS FIM -->
+
 
 
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
