@@ -1,5 +1,5 @@
 <?php
-include "connectBD.php";
+include "../connectBD.php";
 $vagasTotal = 45;
 $teste;
 
@@ -18,7 +18,8 @@ function cotasDef($conexao)
 
 
 function aprovadosQuery(string $curso, string $conditions, $conexao){
-  $aprovados = $conexao->query("SELECT nome_completo, media FROM aluno WHERE curso = '$curso' " . $conditions);
+    $condicao = !$conditions ? "" : $conditions;
+  $aprovados = $conexao->query("SELECT * FROM aluno where curso = '{$curso}'AND deficiencia = 'Nenhuma' AND concorrencia = 'EscolaPública' AND (bairro != 'Príncipe Imperial' AND bairro != 'Venâncios') ORDER BY media DESC LIMIT {$conditions};");
   return $aprovados;
 }
 

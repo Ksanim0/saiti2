@@ -1,5 +1,5 @@
 <?php
-include "connectBD.php";
+include "../connectBD.php";
 include "consultasSQL.php"
 ?>
 <!DOCTYPE html>

@@ -1,5 +1,5 @@
 <?php
-include "connectBD.php";
+include "../connectBD.php";
 #ENFERMAGEM Cotas
 $AprovadosDEFSQL = "SELECT nome_completo, media FROM aluno WHERE deficiencia!='Nenhuma' AND curso='Enfermagem' ORDER BY media DESC LIMIT 2;    ";
 $LimitadorCotaDEF = "SELECT COUNT(nome_completo) FROM aluno WHERE curso='Enfermagem' AND deficiencia!='Nenhuma' LIMIT 2";
